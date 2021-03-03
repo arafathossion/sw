@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    font-family: 'Red Hat Display', sans-serif !important;
+}
+a:hover{
+    text-decoration: none;
+}
+.logo_name_color{
+    color: #B9D142;
+    position: relative;
+}
+nav ul li{
+    padding: 0 20px;
+}
+nav ul li a{
+    color: black !important;
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+nav ul li a:hover {
+    color: #21956C !important;
+}
+.active a{
+    color: #21956C !important;
+}
+.home_img{
+   width: 690px;
+   height: 750px;
+}
+
+.home_img img{
+    width: 100%;
+   height: 750px;
+}
+.home_right_part{
+    width: 690px;
+    height: 750px;
+    background-color:#B4D442;
+    padding: 146px 0 0 82px;
+}
+.home_right_part a{
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
+.line{
+    width: 68px;
+    height: 1px;
+    background-color: #21956C;
+}
+.home_right_part_content{
+    color: white;
+    font-size: 55px;
+    padding: 51px 53px 37px 0;
+    line-height: 58px;
+    
+}
+.home_right_first_span{
+    color: black;
+}
+.home_right_paragraph{
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    padding-bottom: 58px;
+    margin: 0;
+    line-height: 23px;
+}
+.btn{
+    padding: 0 20px;
+    font-size: 12px;
+    width: 136px;
+    height: 51px;
+    line-height: 51px;
+    background-color: black;
+}
+.btn:hover{
+    background-color: #21956C;
+    color: white;
+}
+.second_container{
+    position: absolute;
+    top: 140%;
+    left: 135px;
+    z-index: 1;
+}
+.second_container_left_content{
+    height: 320px;
+    padding: 100px 60px;
+    
+
+}
+.second_container_left_content h3,p{
+    padding-bottom: 15px;
+}
+
+.second_container_left_content a{
+    color: #21956C;
+    font-weight: 700;
+    padding-left: 8px;
+}
+.img{
+    background-color: black;
+    position: relative;
+    
+} 
+.img img{
+    transition: all linear .7s;
+}
+.img a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 8px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.411)  
+}
+.play_icon{
+    color: black;
+    transition: all linear .7s;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+    background-color: rgba(230, 21, 21, 0.774);
+}
+.img img:hover{
+    transform: scale(1.2);
+}
+ .img img:hover .img a{
+    transform: scale(1.2);
+}
+.three_container{
+    
+    position: relative;
+    top: 300px;
+
+}
+.three_container h1{
+    font-size: 55px;
+}
+.three_container_first_span{
+    color: #A3CD46;
+}
